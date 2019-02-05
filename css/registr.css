@@ -1,0 +1,372 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'CENTURY GOTHIC';
+}
+
+.main__section {
+    background: url(../images/background-top.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.container {
+	max-width: 1400px;
+	min-width:320px;
+    padding: 15px 15px;
+	margin-right:auto;
+    margin-left: auto;
+}
+
+.main__logo img {
+    max-width: 40px;
+    height: auto;
+}
+
+.reg-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #292829;
+}
+
+.reg-wrap a {
+    padding: 15px 5px;
+    position: absolute;
+    left: 90%;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: rgba(211, 110, 39, 0.5);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.registration h1 {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'CENTURY GOTHIC';
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 40px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0;
+}
+
+fieldset {
+    border: none;
+    padding: 135px 20px 80px 20px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input[type="text"] {
+    width: 90%;
+    border: 1px solid #292829;
+    border-radius: 3px 3px 0px 0px;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    padding: 12px 10px;
+    /* width: 238px; */
+    -webkit-appearance: none;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+input[type="text"]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:first-child {
+    margin-top: 0;
+}
+
+input[type="submit"] {
+    /* background-color: #ebebeb; */
+    background-color: #292829;
+    border: none;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 7px;
+    /* color: #404040; */
+    color: #ffffff;
+    cursor: pointer;
+    float: none;
+    font-weight: bold;
+    margin-top: 60px;
+    padding: 12px 12px;
+    -webkit-appearance: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+input[type="submit"]:hover {
+    color: #ffffff;
+    background-color: #333;
+}
+
+form input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    outline: none;
+    -webkit-appearance: none;
+    width: 260px;
+}
+
+/* ---------------------------------second section----------------------------- */
+.contact {
+	background-color: #333;
+    padding-top: 80px;
+	background-attachment: fixed;
+}
+
+.contact .title {
+	margin-bottom: 40px;
+}
+
+.contact h2 {
+	color: #fff;
+}
+
+.contact span {
+	display: block;
+    color: #ffffff;
+    font-family: 'CENTURY GOTHIC';
+	/* font-family: "Segoe UI"; */
+	font-size: 14px;
+	/* font-weight: 700; */
+	text-transform: uppercase;
+	margin-bottom: 9px;
+}
+
+input.contact_name {
+	margin-bottom: 40px;
+}
+
+.contact input {
+	padding: 10px;
+	background: none;
+	border: 2px solid #d57344;
+	width: 458px;
+	height: 60px;
+    color: #ffffff;
+    font-family: 'CENTURY GOTHIC';
+	/* font-family: "Segoe UI"; */
+	font-size: 20px;
+	font-weight: 500;
+	transition: border-color .4s;
+	box-shadow: none;
+}
+
+.contact input:focus {
+	border-color: #ea804d;
+	box-shadow: none;
+}
+
+.contact p {
+	margin-top: 18px;
+    /* font-family: "SegoeUISemiBold"; */
+    font-family: 'CENTURY GOTHIC';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+.contact-info span {
+	color: #ffffff;
+    /* font-family: "SegoeUISemiBold"; */
+    font-family: 'CENTURY GOTHIC';
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: none;
+	margin-bottom: 13px;
+}
+
+.contact-info span > a {
+	text-decoration: none;
+	color: #fff;
+	transition: color .3s;
+}
+
+.contact-info span > a:hover {
+	color: #ea804d;
+}
+
+.contact input.contact_email {
+	margin-bottom: 40px;
+}
+
+.contact textarea {
+	min-height: 220px;
+	resize: vertical;
+	padding: 10px;
+	background: none;
+	border: 2px solid #d57344;
+	color: #ffffff;
+	font-family: "Segoe UI";
+	font-size: 20px;
+	font-weight: 500;
+	transition: border-color .4s;
+	box-shadow: none;
+	margin-bottom: 40px;
+}
+
+.contact textarea:focus {
+	border-color: #ea804d;
+	box-shadow: none;
+}
+
+.contact .btn {
+	margin-bottom: 70px;
+	padding: 17px 152px;
+	color: #ffffff;
+    /* font-family: "Segoe UI"; */
+    font-family: 'CENTURY GOTHIC';
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.contact .btn-blue {
+	background-color: #d57344;
+	transition: background-color .3s;
+}
+
+.contact .btn-blue:hover {
+    background-color: #ea804d;
+    
+}
+
+/* -------------------------footer------------------- */
+.footer {
+    background-color: #333;
+}
+
+.footer a {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    transition: color .3s;
+}
+
+.footer p:hover {
+    color: #a8a7a8;
+}
+
+
+
+/*--------------------медиа-запросы---------------------- */
+@media screen and (max-width: 1024px) {
+    .form-message {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .registration h1 {
+        font-size: 30px;
+    }
+
+    fieldset {
+        padding: 120px 15px 60px 15px;
+    }
+
+    input[type="text"] {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .registration {
+        width: 390px;
+    }
+
+    .reg-wrap a {
+        padding: 15px 5px;
+        left: 85%;
+    }
+
+    .main__logo img {
+        max-width: 35px;
+    }
+
+    fieldset {
+        padding: 80px 15px 60px 15px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .registration {
+        width: 300px;
+    }
+
+    .contact input {
+        width: 370px;
+    }
+
+    .contact .btn {
+        padding: 17px 135px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .contact input {
+        width: 300px;
+    }
+    
+    .contact .btn {
+        padding: 17px 97px;
+        margin-bottom: 55px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}

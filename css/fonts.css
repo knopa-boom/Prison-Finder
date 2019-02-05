@@ -1,0 +1,55 @@
+@font-face{
+
+    font-family: 'CENTURY GOTHIC';
+    
+    src: url('../fonts/GOTHIC.TTF');
+    
+    src: url('../fonts/GOTHIC.TTF') format('TTF');
+    
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+
+@font-face{
+
+    font-family: 'CENTURY GOTHIC';
+    
+    src: url('../fonts/GOTHIC.TTF');
+    
+    src: url('../fonts/GOTHIC.TTF') format('TTF');
+    
+    font-weight: normal;
+    
+    font-style: italic;
+    
+}
+
+@font-face{
+
+    font-family: 'CENTURY GOTHIC';
+    
+    src: url('../fonts/GOTHIC.TTF');
+    
+    src: url('../fonts/GOTHIC.TTF') format('TTF');
+    
+    font-weight: bold;
+    
+    font-style: italic;
+    
+}
+
+@font-face{
+
+    font-family: 'CENTURY GOTHIC';
+    
+    src: url('../fonts/GOTHIC.TTF');
+    
+    src: url('../fonts/GOTHIC.TTF') format('TTF');
+    
+    font-weight: bold;
+
+    font-style: italic;
+    
+}
